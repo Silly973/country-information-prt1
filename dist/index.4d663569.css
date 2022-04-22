@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Permanent+Marker&display=swap');
-
+@import "https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Permanent+Marker&display=swap";
 body {
     display: flex;
     flex-direction: column;
@@ -60,3 +59,4 @@ h1 {
 .default {
     color: grey;
 }
+/*# sourceMappingURL=index.4d663569.css.map */

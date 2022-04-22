@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Permanent+Marker&display=swap');
+
+* •    {
+    Box-sizing: border-box;
+    Margin: 0;
+}
+
+Body {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    Font-family: ‘Roboto Condensed’, Arial, sans-serif;
+    Margin: 64px 16px;
+}
+
+H1 {
+    Font-size: 50px;
+}
+
+#search-form button {
+    Tekst-transform: uppercase;
+    Background-color: #A7D160;
+    Border: 1px solid #A7D160;
+    Border-radius: 0 8px 8px 0;
+    Padding: 8px 16px;
+    Color: #292929;
+    Font-family: ‘Roboto Condensed’, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+}
+
+#search-form input {
+    Border: 1px solid #808080;
+    Border-right-color: transparent;
+    Margin-right: -4px;
+    Font-family: ‘Roboto Condensed’, sans-serif;
+    Padding: 8px;
+    Border-radius: 8px 0 0 8px;
+    Width: 300px;
+    Font-size: 16px;
+}
+
+.search-result-box {
+    Border-radius: 8px;
+    Box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    Padding: 24px;
+    Margin: 72px 0;
+}
+
+.search-result-box h2 {
+    Font-size: 36px;
+    Padding: 0 0 12px 0;
+}
+
+.search-result-box p {
+    Padding: 8px 0;
+}
+
+.flag {
+    Width: 40px;
+    Margin-right: 16px;
+}
+
+.flag-title-container {
+    Border-bottom: 1px solid #ededed;
+    Display: flex;
+    Align-items: baseline;
+    Margin: 0 0 12px 0;
+}
+
+.error-message {
+    Padding: 16px 0;
+    Color: #9d0202;
+    Border-radius: 8px;
+}
+
+•  {
+    Box-sizing: border-box;
+    Margin: 0;
+}
+
+Body {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    Font-family: ‘Roboto Condensed’, Arial, sans-serif;
+    Margin: 64px 16px;
+}
+
+H1, h2, h3, h4 {
+    Font-family: ‘Gochi Hand’, cursive;
+}
+
+H1 {
+    Font-size: 46px;
+}
+
+#search-form button {
+    Tekst-transform: uppercase;
+    Background-color: #A7D160;
+    Border: 1px solid #A7D160;
+    Border-radius: 0 8px 8px 0;
+    Padding: 8px 16px;
+    Color: #292929;
+    Font-family: ‘Roboto Condensed’, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+}
+
+#search-form input {
+    Border: 1px solid #808080;
+    Border-right-color: transparent;
+    Margin-right: -4px;
+    Font-family: ‘Roboto Condensed’, sans-serif;
+    Padding: 8px;
+    Border-radius: 8px 0 0 8px;
+    Width: 300px;
+    Font-size: 16px;
+}
+
+.search-result-box {
+    Border-radius: 8px;
+    Box-shadow: .25rem .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    Padding: 24px;
+    Margin: 72px 0;
+}
+
+.search-result-box h2 {
+    Font-size: 36px;
+    Padding: 0 0 12px 0;
+}
+
+.search-result-box p {
+    Padding: 8px 0;
+}
+
+.flag {
+    Width: 40px;
+    Margin-right: 16px;
+}
+
+.flag-title-container {
+    Border-bottom: 1px solid #ededed;
+    Display: flex;
+    Align-items: baseline;
+    Margin: 0 0 12px 0;
+}
+
+.error-message {
+    Padding: 16px 0;
+    Color: #5e2020;
+    Border-radius: 8px;
+}
+

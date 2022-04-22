@@ -1,0 +1,102 @@
+@import "https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Permanent+Marker&display=swap";
+* {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-color: white;
+
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    margin-top:40px;
+}
+
+#world-map{
+    max-width: 100%;
+}
+
+.flag-container img{
+    margin:10px;
+    height:30px;
+    border-radius: 2px;
+}
+
+.flag-container {
+    display:flex;
+    min-width:90px;
+    margin:0;
+    margin-right:0px;
+}
+
+ul {
+    padding: 0;
+    border: 2px solid lightgray;
+    background-color: #efecec;
+    font-family: 'Merriweather', serif;
+
+}
+
+li {
+
+    display:flex;
+    flex-direction:column;
+    column-count: 3;
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin:4px;
+    list-style-type: none;
+    min-height: 80px;
+    border-radius: 8px;
+    background-image: white;
+
+
+}
+
+section {
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+
+}
+
+h2 {
+    margin:5px 0 0 0;
+    font-size: 30px;
+}
+
+#list-countries {
+    display:flex;
+    flex-wrap:wrap;
+    flex-basis: 200px;
+}
+
+/* Continent item styling */
+
+.europe *           { color: hsl(47,100%,60%); }
+
+.asia *             { color: hsl(354,59%,56%); }
+
+.africa *           { color: hsl(222,47%,55%); }
+
+.oceania *          { color: hsl(288,42%,53%); }
+
+.south-america *    { color: hsl(139,43%,59%); }
+
+.north-america *    { color: hsl(119,27%,40%); }
+
+.other-region *     { color: hsl(0,  0%, 60%); }
+
+.population-amount {
+    margin:0px 0px 10px 10px;
+    color:black;
+}
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
